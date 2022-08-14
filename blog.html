@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Blogs</title>
+<style type="text/css">
+	html{
+			font-size: 62.5%;
+			margin: 0px;
+		}
+body{
+	background: linear-gradient(#5F6501,black);
+	
+	overflow: auto;
+}
+ul li{
+	display: inline-block;
+	margin-right: 2rem;
+}
+ul li a{
+	text-decoration: none;
+	text-align: center;
+	font-weight: bolder;
+	font-family: sans-serif;
+	color:white ;
+	font-size: 2rem;
+	
+
+}
+ul li:hover a{
+	color: pink;
+}
+legend{
+	font-size: 4rem;
+	text-align: center;
+	color: cyan;
+	text-shadow: 2px 2px 8px black;
+	font-weight: bolder;
+	font-family: sans-serif;
+}
+fieldset{
+	box-shadow: inset 1px 1px 30px lightgreen,
+	inset -5px -5px 0.8rem white;
+}
+div{
+	display: flex;
+	flex-direction: row;
+	font-size: 3rem;
+	color: whitesmoke;
+	padding-left: 5rem;
+}
+fieldset div a{
+	text-decoration: none;
+	padding-top: 1.6rem;
+	padding-left: 1.6rem;
+	margin: 1rem;
+	font-family: sans-serif;
+	font-style: italic;
+	color: whitesmoke;
+
+}
+
+@media (max-width: 390px)
+{
+	html{
+		font-size: 45%;
+	}
+}
+</style>
+
+</head>
+<body>
+<header>
+		<ul>
+        <li><a href="index.html">About</a></li><li><a href="#">Resume</a></li><li><a href="projects.html">Project</a></li><li><a href="internships.html">Internship</a></li><li><a href="blog.html">Blogs</a></li><li><a href="certification.html">Certification</a></li>
+        </ul>
+</header>
+<fieldset>
+	<legend>My Blogs</legend>
+	<div class="blog-1">
+		<img src="rain.gif" width="100" height="100">
+		<a href="#"><span>Meterological Data Analysis Using Python</span></a>
+	</div><br><hr>
+	<div class="blog-2">
+		<img  src="notebook.gif" width="100" height="100">
+	<a href=""><span>Recognition of Hand-Written Digits Using Python Sci-kit Learn</span></a>
+	</div><br><hr>
+	
+	<div class="blog-3">
+		<img src="decision-tree.png" width="100" height="100">
+	<a href="#"><span>Prediction Using Decision Tree Algorithm</span></a>
+	</div>
+</fieldset>
+</body>
+</html>
