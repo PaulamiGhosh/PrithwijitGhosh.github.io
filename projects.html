@@ -3,6 +3,9 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 	<title>Prithwijit Ghosh - projects</title>
 
 	<style type="text/css">
@@ -35,8 +38,6 @@ ul li:hover a{
 fieldset{
 	display: flex;
 	flex-direction: row;
-	padding-left: 3rem;
-	margin:0rem 10rem 10rem 10rem ;
 	padding-top: 5rem;
 	margin-bottom: 5rem;
 	box-shadow: inset 0 0 3rem white;
@@ -99,12 +100,28 @@ fieldset div a{
 	color: lightyellow;
 }
 
+#contact{
+	display: inline-grid;
+    grid-template-columns: 30px 30px 30px auto;
+    text-align: center;
+    column-gap: 20px;
+}
+.fa-github{
+	color: white;
+}
+.fa-whatsapp{
+	color: lightgreen;
+}
+.fa-linkedin{
+	color: #4053E1;
+}
 footer{
 	color: white;
 	text-align: center;
-	font-size: 2rem;
+	font-size: 1.4rem;
 }
-@media (max-width: 380px)
+
+@media (max-width: 450px)
 {
 	html{
 		font-size: 45%;
@@ -113,18 +130,26 @@ footer{
 	fieldset{
 		display: flex;
 		flex-direction: column;
-		
+		width: 100%;
+		box-shadow: none;
 		margin: 0px;
 		padding: 0px;
+		border: none;
 	}
 	.project-1{
-		border-bottom:3px solid orange;;
+		border-bottom:3px solid orange;
+		width: 100%;
+
 	}
 	.project-2{
 		border-bottom: 3px solid cyan;
+		width: 100%;
+
 	}
 	.project-3{
 		border-bottom: 3px solid yellowgreen;
+		width: 100%;
+
 	}
 }
 </style>
@@ -139,25 +164,26 @@ footer{
 <fieldset>
 	<legend>Core Projects</legend>
 <div class="project-1">
-	<img src="grocery-cart.png" width="50" height="50"><br><br>
-	<a href="#">Stdent Performance Based on the Study Hours</a>
+	<br><img src="grocery-cart.png" width="50" height="50"><br><br>
+	<a href="https://github.com/Prithwijit22/Marketting-Campaign-Analysis-using-Logistic-regression">Marketting Campaign Analysis using Logistic regression</a>
 </div>
 <div class="project-2">
-	<img src="alcoholic-drinks.png" width="50" height="50"><br><br>
-	<a href="#">Stdent Performance Based on the Study Hours</a>
+	<br><img src="alcoholic-drinks.png" width="50" height="50"><br><br>
+	<a href="https://github.com/Prithwijit22/MLR-On-Student-Alcohol-Consumption">Student Alcohol Consumption Analysis using Multiple Linear Regression Model</a><br>
 </div>
 <div class="project-3">
-	<img src="graph.png" width="50" height="50"><br><br>
-	<a href="#">Stdent Performance Based on the Study Hours</a>
+	<br><img src="gmo.png" width="50" height="50"><br><br>
+	<a href="#">Pathak</a>
 </div>
 
 </fieldset>
-<fieldset>
-	<legend>Other Projects</legend>
-	<div class="project-1"></div>
-<div class="project-2"></div>
-<div class="project-3"></div>
-</fieldset>
-<footer>&copy 2022. By Polo</footer>
+
+
+
+<footer><p id="contact">
+    <a href="https://www.linkedin.com/in/prithwijit-ghosh-571185219"><i class="fa fa-linkedin fa-lg"></i></a><a href="https://github.com/Prithwijit22
+"><i class="fa fa-github fa-lg"></i></a><a href="https://wa.me/qr/A7OH5MUQ6XE6L1
+"><i class="fa fa-whatsapp fa-lg"></i></a> &copy By Polo 2022, All Rights Are Reserved </p></footer>
+
 </body>
 </html>
